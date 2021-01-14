@@ -1,0 +1,16 @@
+# Ignore all type files for terraform
+.terraform
+terraform.tfstat*
+.terraform.lock.hcl
+.terraform.tfstate
+.terraform.tfstate.backup
+
+# Ignore .git.
+!.gitignore
+
+# Ignore creds file
+config/account.json
+
+# Others
+push.sh
+ips_output.txt
